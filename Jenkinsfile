@@ -1,4 +1,4 @@
-@Library('jen-pipe-lib@testbranch') _
+@Library('jen-pipe-lib') _
 
 pipeline
 {
@@ -18,6 +18,7 @@ pipeline
 			{
 				fromLibarary()
 				fromTestBranch()
+				echo "HELLOOOOOOOOO"
 			}
 		}
 	
